@@ -1,0 +1,12 @@
+h1 {
+  text-align: center;
+  background: -webkit-linear-gradient(red,blue);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h3 {
+  text-align: center;
+  color: crimson;
+  
+}
