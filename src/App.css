@@ -1,5 +1,5 @@
 h1 {
- margin-left: 500px;
+ margin-left: 450px;
   background: -webkit-linear-gradient(red,blue);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -14,14 +14,14 @@ h3 {
   font-size: 25px;
   position: absolute;
   margin-top: -59px;
-  margin-left: 720px;
+  margin-left: 670px;
 }
  #but{
   color: rgb(17, 17, 17);
   background-color: coral;
   position:absolute;
   font-family: cursive;
-  margin-left: 1000px;
+  margin-left: 900px;
   margin-top: -58px;
   padding: 5px;
   border-radius: 10px;
