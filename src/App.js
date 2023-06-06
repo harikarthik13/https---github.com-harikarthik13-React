@@ -1,7 +1,7 @@
 import React from 'react';
 import { useState } from 'react';
-import './App.css';
-import Head from './Header'
+import '../src/css/App.css';
+import Head from './components/Header'
 import img1 from './image/naruto.jpg'
 import img2 from './image/death note.jpg'
 import img3 from './image/one peice.jpg'
@@ -31,12 +31,9 @@ function App() {
        <img className="img" src={images[value]} height="550px" width="100%" alt="Error" />
       <h1>Anime series : </h1> <h3>{contents[value]}</h3>
       <button className="btnstyle" id="but" onClick={textChanger}>Change Anime</button>
-      
-     
-      
-      <Head/>
+      <Head />
     </div>
-  );
-}
+  )
+};
 
 export default App;
