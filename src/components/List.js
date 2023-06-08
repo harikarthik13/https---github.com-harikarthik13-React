@@ -1,5 +1,6 @@
 import React from "react"
 import  { useState } from "react"
+import { FaRegTrashCan } from 'react-icons/fa';
 const List = () => {
     const [items,setItems]= useState(
         [
@@ -27,7 +28,7 @@ const List = () => {
             <li>
           <input type='checkbox' checked={item.checked}/>
           <label>{item.anime}</label>
-          <button>Unwatched</button>
+<FaRegTrashCan/>
             </li>
             ))}
 
